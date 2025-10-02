@@ -66,6 +66,9 @@ This project uses [CurrencyAPI](https://currencyapi.com/) to fetch real-time exc
 - **CSS3** for styling  
 - **JavaScript (Vanilla JS)** for conversion logic  
 
+![HTML](https://img.shields.io/badge/-HTML-orange) 
+![CSS](https://img.shields.io/badge/-CSS-blue) 
+![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
 
 
 
