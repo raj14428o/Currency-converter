@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: antiquewhite;
+}
+
+nav {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    background-color: rgb(224, 209, 245);
+    padding: 23px;
+}
+
+nav .logo {
+    font-size: 24px;
+    margin: 0 23px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(2, 3, 18);
+    transition: color 0.5s;
+}
+
+nav ul li a:hover {
+    color: rgb(103, 101, 235);
+}
+
+.container {
+    max-width: 80vw;
+    margin: auto;
+    padding: 20px;
+    min-height: 80vh;
+}
+
+.container h1,
+.container h2 {
+    margin: 23px 0;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form label {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.container form input[type='number'],
+select {
+    font-size: 20px;
+    width: 250px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.btn {
+    width: 150px;
+    padding: 8px;
+    font-size: 18px;
+    background: #e0d0f5;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.output {
+    display: none;
+    margin: 20px auto;
+    max-width: 80vw;
+}
+
+.output table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 18px;
+}
+
+.output table, .output th, .output td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f3eaea;
+    font-weight: bold;
+}
