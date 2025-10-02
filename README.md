@@ -66,7 +66,7 @@ This project uses [CurrencyAPI](https://currencyapi.com/) to fetch real-time exc
 - **CSS3** for styling  
 - **JavaScript (Vanilla JS)** for conversion logic  
 
----
+
 
 
 
